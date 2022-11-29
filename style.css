@@ -22,7 +22,7 @@ body{
     width: 280px;
     height: 35px;
     float: left;
-    background-image: url(https://cdn-icons-png.flaticon.com/512/2099/2099199.png);
+    background-image: url(img/mail.png);
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: 2px 5px;
@@ -38,7 +38,7 @@ body{
     width: 280px;
     height: 35px;
     float: left;
-    background-image: url(https://cdn-icons-png.flaticon.com/512/15/15874.png);
+    background-image: url(img/phone.png);
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: 0 5px;
