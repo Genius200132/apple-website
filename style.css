@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.top {
+    margin: auto;
+    width: 1220px;
+    height: 40px;
+}
+
+.logo {
+    width: 280px;
+    height: 40px;
+    float: left;
+}
+
+.email {
+    width: 280px;
+    height: 35px;
+    float: left;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/2099/2099199.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 2px 5px;
+    padding-top: 5px;
+}
+
+.email span {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.phone{
+    width: 280px;
+    height: 35px;
+    float: left;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/15/15874.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 0 5px;
+    padding-top: 5px;
+}
+
+.phone span {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.social{
+    width: 280px;
+    height: 40px;
+    float: right;
+    text-align: right;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+}
+
+.bgMenu {
+    width: 100%;
+    height: 50px;
+    background-color: royalblue;
+}
+
+.menu {
+    width: 1220px;
+    height: 40px;
+    margin: auto;
+}
+
+.bgImage {
+    background-image: url(https://as01.epimg.net/meristation/imagenes/2021/04/20/betech/1618941980_459662_1618946747_noticia_normal.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    background-position: 20px;
+    background-size: 1200px;
+}
+
+.box-article {
+    margin: auto;
+    width: 1220px;
+    height: 400px;
+    margin-top: -40px;
+}
+
+.top-article {
+    width: 360px;
+    height: 360px;
+    float: left;
+    background-color: royalblue;
+    margin-left: 30px;
+    text-align: center;
+    color: white;
+}
+
+ul {
+    width: 1200px; 
+    padding-top: 10px;
+    margin:0 auto;
+    display:block;
+    list-style-type:none;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    margin-left: 5px;
+}
+
+li { 
+    display:inline;
+    margin-right: 20px;
+}
+
+.evidenziato { 
+    background-color: royalblue;
+    padding: 4px;
+    border-radius: 20px;
+}
+
+strong {
+    color: white;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: royalblue;
+    color: white;
+}
+
+.copyright {
+    margin-right: 23%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.logo-footer {
+    width: 280px;
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.articoli-evidenziati {
+    background-color: white;
+}
+
+.border {
+    border: solid 2px royalblue;
+}
+
+.menu a, .copyright a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover, .copyright a:hover {
+    color: #f4f4f4;
+}
+
+.phone a, .email a {
+    text-decoration: none;
+    color: black;
+}
+
+.phone a:hover, .email a:hover {
+    color: royalblue;
+    font-weight: bold;
+}
+
+.top-article a {
+    color: royalblue;
+    text-decoration: none;
+}
+
+.top-article a:hover {
+    color: white;
+    background-color: royalblue;
+}
+
+mark:hover {
+    background-color: royalblue;
+}
+
+video {
+    width: 100%;
+}
+
+#scrollToTopBtn {
+    background-color: royalblue;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 28px;
+    width: 48px;
+    float: right;
+}
