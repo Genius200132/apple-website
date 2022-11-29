@@ -13,14 +13,16 @@
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <!--Import CSS-->
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--Script JS-->
-    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script><!--Scroll Reveal-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!--AOS – Animate On scroll library-->
 </head>
 <body>
     <!--Top Bar-->
     <div class="top">
         <!--Logo-->
-        <div class="logo">
+        <div class="logo" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
             <a href="index.html"><img src="img/apple.png" alt="Logo" width="60" height="30"></a>
         </div>
         <!--End Logo-->
@@ -69,17 +71,17 @@
     <!--End Background Image-->
     <!--Articles-->
     <div class="box-article">
-        <div class="top-article">
+        <div class="top-article" data-aos="flip-right" data-aos-duration="3000">
             <a href="https://www.apple.com/it/iphone-14-pro/" target="_blank"><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-14-pro-model-unselect-gallery-2-202209_GEO_EMEA?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1660753617539" class="border" alt="IPhone 14 Pro" width="356" height="200"></a>
             <h1><mark class="articoli-evidenziati"><a href="https://www.apple.com/it/iphone-14-pro/" target="_blank">IPHONE 14 PRO</a></mark></h1>
             <p class="tagline">• Display da 6,1"<br>• Dynamic Island<br>• Chip A16 Bionic</p>
         </div>
-        <div class="top-article">
+        <div class="top-article" data-aos="flip-right" data-aos-duration="3000">
             <a href="https://www.apple.com/it/shop/buy-watch/apple-watch-se" target="_blank"><img src="https://www.apple.com/newsroom/images/product/watch/lifestyle/Apple_watch-SE-Aluminum-silver-case-yellow-band_09152020_big.jpg.large.jpg" class="border" alt="Apple Watch SE" width="356" height="200"></a>
             <h1><mark class="articoli-evidenziati"><a href="https://www.apple.com/it/shop/buy-watch/apple-watch-se" target="_blank">WATCH SE</a></mark></h1>
             <p class="tagline">• Display Retina<br>• 40 mm o 44 mm<br>• SOS emergenze</p>
         </div>
-        <div class="top-article">
+        <div class="top-article" data-aos="flip-right" data-aos-duration="3000">
             <a href="https://www.apple.com/it/airpods-max/" target="_blank"><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-silver-202011_FMT_WHH?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1604615276000" class="border" alt="Airpods Max" width="356" height="200"></a>
             <h1><mark class="articoli-evidenziati"><a href="https://www.apple.com/it/airpods-max/" target="">AIRPODS MAX</a></mark></h1>
             <p class="tagline">• Smart Case<br>• 20 ore di ascolto<br>• Cancellazione del rumore</p>
@@ -127,5 +129,10 @@
         scrollToTopBtn.addEventListener("click", scrollToTop);
     </script>
     <!--End Back To Top-->
+    <!--AOS – Animate On scroll library-->
+    <script>
+        AOS.init();
+    </script>
+    <!--End AOS – Animate On scroll library-->
 </body>
 </html>
